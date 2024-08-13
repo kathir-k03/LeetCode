@@ -1,10 +1,6 @@
 import java.lang.Math;
 class Solution {
-    public int reverse(int x) {
-        
-       return rev(x);
-    }
-    static int rev(int n){
+    public int reverse(int n) {
         long r=0;
         while(n!=0){
             int d=n%10;
